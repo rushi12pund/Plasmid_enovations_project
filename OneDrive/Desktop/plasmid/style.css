@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "montserrat", sans-serif;
+}
+
+.hero_section {
+    height: 100vh; /* 100% of the viewport height */
+    background-image: url('HOTEL IMG.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    position: relative; 
+    background-color: rgb(88, 87, 87);
+    text-align: center;
+}
+.hero_text{
+    color: azure;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.book_button,book_button,know_more{
+    background-color: aqua;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    padding:10px 20px;
+    margin-top: 10px; 
+}
+.about_us{
+    float: left;
+    width: 50%;
+    margin: 0px 20px;
+    text-align: center;
+}
+
+.ab{
+ float: left;
+ text-align: left;
+}
+.about_section > h1{
+text-align: center;
+margin: 10px 0px;
+text-decoration: underline;
+}
+.Amenites{
+   float: right;
+   margin-right: 200px;
+}
+
+.know_more{
+background-color: aqua;
+font-size: 20px;
+border: none;
+border-radius: 20px;
+padding:10px 20px;
+margin-top: 10px; 
+}
